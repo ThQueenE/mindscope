@@ -1,0 +1,24 @@
+{
+  "packageId": "io.github.thqueene.twa",
+  "host": "thqueene.github.io",
+  "name": "MindScope",
+  "launcherName": "MindScope",
+  "startUrl": "/mindscope/",
+  "display": "fullscreen",
+  "themeColor": "#0b1421",
+  "navigationColor": "#00000000",
+  "backgroundColor": "#0b1421",
+  "enableNotifications": false,
+  "startUrlBackgroundColor": "#0b1421",
+  "splashScreenBackgroundColor": "#0b1421",
+  "splashScreenFadeOutDuration": 300,
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "signingKey": {
+    "path": "android.keystore",
+    "alias": "android"
+  },
+  "iconUrl": "https://thqueene.github.io/mindscope/icon-512.png",
+  "maskableIconUrl": "https://thqueene.github.io/mindscope/icon-512.png",
+  "monochromeIconUrl": "https://thqueene.github.io/mindscope/icon-192.png"
+}
