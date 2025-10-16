@@ -11,14 +11,15 @@
   "enableNotifications": false,
   "startUrlBackgroundColor": "#0b1421",
   "splashScreenBackgroundColor": "#0b1421",
-  "splashScreenFadeOutDuration": 300,
+  "splashScreenFadeOutDuration": 3000,
   "appVersion": "1.0.0",
   "appVersionCode": 1,
   "signingKey": {
     "path": "android.keystore",
     "alias": "android"
   },
-  "iconUrl": "https://thqueene.github.io/mindscope/icon-512.png",
-  "maskableIconUrl": "https://thqueene.github.io/mindscope/icon-512.png",
-  "monochromeIconUrl": "https://thqueene.github.io/mindscope/icon-192.png"
+  "iconUrl": "https://thqueene.github.io/mindscope/assets/icon-512.png",
+  "maskableIconUrl": "https://thqueene.github.io/mindscope/assets/icon-512.png",
+  "monochromeIconUrl": "https://thqueene.github.io/mindscope/assets/icon-192.png",
+  "splashScreenUrl": "https://thqueene.github.io/mindscope/assets/splash.png"
 }
