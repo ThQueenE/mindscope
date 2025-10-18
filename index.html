@@ -5,12 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MindScope</title>
 
-  <!-- PWA Meta Tags للأندرويد -->
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#0b1421" />
   <meta name="mobile-web-app-capable" content="yes">
-  
-  <!-- Tailwind CSS -->
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -34,7 +32,7 @@
     }
   </script>
 
-  <!-- Prevent FOUC -->
+  <!-- Avoid FOUC -->
   <script>
     if (
       localStorage.theme === 'dark' ||
@@ -54,7 +52,6 @@
     rel="stylesheet"
   >
 
-  <!-- App CSS -->
   <link rel="stylesheet" href="index.css">
 
   <!-- Import Maps -->
@@ -75,14 +72,13 @@
 <body class="bg-beige dark:bg-dark-bg">
   <div id="root"></div>
 
-  <!-- ✅ Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker
-          .register('./sw.js')
-          .then(reg => console.log('✅ Service Worker registered:', reg.scope))
-          .catch(err => console.error('❌ Service Worker registration failed:', err));
+          .register('/mindscope/sw.js')
+          .then(reg => console.log('Service Worker registered:', reg.scope))
+          .catch(err => console.error('Service Worker registration failed:', err));
       });
     }
   </script>
